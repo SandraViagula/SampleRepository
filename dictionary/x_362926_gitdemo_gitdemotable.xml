@@ -2,5 +2,8 @@
     <element label="GitDemoTable" max_length="40" name="x_362926_gitdemo_gitdemotable" type="collection">
         <element label="Column1" max_length="40" name="column1" type="string"/>
         <element label="Column2" max_length="40" name="column2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IntRow1" max_length="40" name="introw1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="IntRow2" max_length="40" name="introw2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone no" max_length="40" name="phone_no" type="phone_number_e164"/>
     </element>
 </database>
